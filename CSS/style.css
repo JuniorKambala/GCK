@@ -285,3 +285,118 @@ nav{
   }*/
   
 /*}*/
+
+
+/* ========== RESPONSIVE DESIGN ========== */
+
+/* Tablettes (768px et moins) */
+@media screen and (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .menu a {
+        width: 100%;
+        text-align: center;
+        padding: 0.8rem;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    
+    .menu a:last-child {
+        border-bottom: none;
+    }
+    
+    header h1 {
+        font-size: 1.3rem;
+    }
+    
+    .contenu-form {
+        padding: 1.5rem;
+    }
+    
+    #services ul {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+/* Mobiles (480px et moins) */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    
+    header {
+        padding: 1.5rem 0.5rem;
+    }
+    
+    header h1 {
+        font-size: 1.1rem;
+    }
+    
+    .menu a {
+        padding: 0.7rem;
+        font-size: 0.85rem;
+    }
+    
+    section {
+        margin: 1rem auto;
+        padding: 0.8rem;
+    }
+    
+    #accueil p, #apropos p {
+        padding: 1.2rem;
+        font-size: 0.95rem;
+    }
+    
+    .contenu-form {
+        padding: 1rem;
+    }
+    
+    input, textarea, select {
+        padding: 0.6rem;
+        font-size: 0.9rem;
+    }
+    
+    button, input[type="submit"] {
+        padding: 0.7rem 1rem;
+        font-size: 0.9rem;
+    }
+    
+    footer {
+        padding: 0.8rem;
+    }
+}
+
+/* Grands écrans (1200px et plus) */
+@media screen and (min-width: 1200px) {
+    .menu {
+        padding: 0 2rem;
+    }
+    
+    .menu a {
+        padding: 1rem 2rem;
+    }
+    
+    section {
+        padding: 2rem;
+    }
+}
+
+/* ========== ANIMATIONS & UTILITAIRES ========== */
+/*img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}*/
+
+/* Correction des pages avec peu de contenu */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
