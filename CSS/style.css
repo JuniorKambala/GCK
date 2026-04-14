@@ -90,11 +90,11 @@ body{
 }
 
 
-img {
+/*img {
     border-radius: 10px;
     max-width: 300px;
     margin: auto;
-}
+}*/
 
 /*.bleu {
     color: #000;
@@ -222,3 +222,66 @@ nav{
 
 
 
+@media (max-width: 768px) {
+
+  /* Structure globale */
+  body {
+    /*overflow-x: hidden;*/
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2{
+    font-size: 1.4rem;
+  }
+
+  /*main {
+    width: 100%;
+    padding: 1rem;
+  }*/
+
+  section {
+    padding: 1.2rem 1rem;
+    /*width: 100%;
+    margin-bottom: 2rem;
+    padding: 1.5rem 1rem;
+    box-sizing: border-box;*/
+  }
+
+  /* Tous les conteneurs repassent en colonne */
+  .container,
+  .content,
+  .section-content {
+    width: 100%;
+    max-width:100%;
+  }
+  /*.projects-container,*/
+  /*.skills-container {
+    display: block;
+    width: 100%;
+  }*/
+
+  /* Cartes (projets, compétences, etc.) */
+  /*.project-card,
+  .skill-card,
+  .card {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }*/
+
+  /* Images */
+  /*img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }*/
+
+  * {
+    box-sizing: border-box;
+  }
+  
+}
