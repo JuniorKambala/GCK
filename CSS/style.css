@@ -222,15 +222,15 @@ nav{
 
 
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
 
   /* Structure globale */
-  body {
+  /*body {
     /*overflow-x: hidden;*/
-    font-size: 14px;
-  }
+   /* font-size: 14px;
+  }*/
 
-  h1 {
+  /*h1 {
     font-size: 1.6rem;
   }
 
@@ -243,21 +243,21 @@ nav{
     padding: 1rem;
   }*/
 
-  .menu a{
+ /* .menu a{
     padding: 1.2rem 1rem;
     /*width: 100%;
     margin-bottom: 2rem;
     padding: 1.5rem 1rem;
     box-sizing: border-box;*/
-  }
+  /*}*/
 
   /* Tous les conteneurs repassent en colonne */
-  .container,
+  /*.container,
   .content,
   .menu  {
     width: 100%;
     max-width:100%;
-  }
+  }*/
   /*.projects-container,*/
   /*.skills-container {
     display: block;
@@ -284,4 +284,4 @@ nav{
     box-sizing: border-box;
   }*/
   
-}
+/*}*/
