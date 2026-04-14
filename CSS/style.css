@@ -392,11 +392,11 @@ nav{
 }*/
 
 /* Correction des pages avec peu de contenu */
-html, body {
+/*html, body {
     height: 100%;
 }
 
 body {
     display: flex;
     flex-direction: column;
-}
+}*/
