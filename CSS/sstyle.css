@@ -8,6 +8,9 @@ body {
     background-color: #6d80c9;
     font-family: Arial, sans-serif;
     padding: 0;
+
+    margin: 0;
+    padding-top: 60px; 
 }
 
 /* ========== NAVIGATION ========== */
@@ -16,6 +19,11 @@ nav {
     text-align: center;
     padding: 15px;
     width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 .menu {
@@ -197,3 +205,20 @@ footer {
         padding: 8px;
     }
 }
+
+/*body {
+    margin: 0;
+    padding: 0;
+}*/
+
+/*nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}*/
+
+/*body {
+    padding-top: 60px; /* Ajuste selon la hauteur de ton menu */
+/*}*/
