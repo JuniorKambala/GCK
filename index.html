@@ -1,33 +1,155 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil | GCK</title>
-    <link rel="stylesheet" href="CSS/sstyle.css">
+    <title>GCK | Génie de Construction du Kasaï</title>
+    <link rel="stylesheet" href="CSS/stylle.css">
 </head>
 
 <body>
 
-    <nav>
-        <div class="menu">
-            <a href="index.html" class="active">ACCUEIL</a>
-            <a href="apropos.html">À PROPOS</a>
-            <a href="services.html">SERVICES</a>
-            <a href="contact.html">NOUS CONTACTER</a>
-        </div>
-    </nav>
-    
-    <header>
-        <h1>GENIE DE CONSTRUCTION DU KASAI (GCK)</h1>
-    </header>
-    
-    <section id="accueil" >
-        <p>Site de l'entreprise------------------------.</p>
-    </section>
+<nav>
+    <div class="menu">
+        <a href="#accueil">ACCUEIL</a>
+        <a href="#apropos">À PROPOS</a>
+        <a href="#services">SERVICES</a>
+        <a href="#projets">PROJETS</a>
+        <a href="#carriere">CARRIÈRE</a>
+        <a href="#contact">NOUS CONTACTER</a>
+    </div>
+</nav>
 
-    <footer>© 2026 GCK</footer>
+<!--SECTION ACCUEIL -->
+
+<section id="accueil">
+    <h2>GENIE DE CONSTRUCTION DU KASAI</h2>
+    <p>Leader dans le domaine de la construction et du génie civil au Kasaï. Excellence et fiabilité depuis 2010.</p>
+    <div class="cards">
+        <div class="card">
+            <h3>Construction</h3>
+            <p>Bâtiments, ponts et infrastructures</p>
+        </div>
+        <div class="card">
+            <h3>Rénovation</h3>
+            <p>Réhabilitation et entretien</p>
+        </div>
+        <div class="card">
+            <h3>Expertise</h3>
+            <p>Conseil et étude de projets</p>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION À PROPOS -->
+
+<section id="apropos">
+    <h2>À Propos de GCK</h2>
+    <p><strong>Notre histoire :</strong> Fondée en 2010, GCK est une entreprise congolaise spécialisée dans le génie civil et la construction.</p>
+    <p><strong>Notre mission :</strong> Bâtir un avenir solide et durable pour les communautés du Kasaï.</p>
+    <p><strong>Nos valeurs :</strong> Qualité, intégrité, innovation et satisfaction client.</p>
+</section>
+
+<!-- SECTION SERVICES -->
+
+<section id="services">
+    <h2>Nos Services</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Construction résidentielle</h3>
+            <p>Maisons, villas et immeubles d'habitation</p>
+        </div>
+        <div class="card">
+            <h3>Construction industrielle</h3>
+            <p>Usines, entrepôts et locaux commerciaux</p>
+        </div>
+        <div class="card">
+            <h3>Travaux publics</h3>
+            <p>Ponts, routes et infrastructures publiques</p>
+        </div>
+        <div class="card">
+            <h3>Études techniques</h3>
+            <p>Conception, maîtrise d'œuvre et conseil</p>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 4 - PROJETS -->
+ 
+<section id="projets">
+    <h2>Nos Projets Réalisés</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Immeuble MBUJI</h3>
+            <p>Bâtiment de 8 étages à Kananga - 2024</p>
+        </div>
+        <div class="card">
+            <h3>Pont de la Lukaya</h3>
+            <p>Pont mixte acier-béton - 2023</p>
+        </div>
+        <div class="card">
+            <h3>Complexe scolaire</h3>
+            <p>École primaire et secondaire - 2025</p>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 5 - CARRIÈRE -->
+
+<section id="carriere">
+    <h2>Rejoignez GCK</h2>
+    <p><strong>Pourquoi travailler avec nous ?</strong></p>
+    <p>Environnement de travail stimulant</p>
+    <p>Formation continue</p>
+    <p>Opportunités d'évolution</p>
+    <p>Salaire compétitif</p>
+    <br>
+    <p><strong>Postes ouverts actuellement :</strong></p>
+    <div class="cards">
+        <div class="card">
+            <h3>Ingénieur génie civil</h3>
+            <p>CDI - Kananga</p>
+        </div>
+        <div class="card">
+            <h3>Chef de chantier</h3>
+            <p>CDD - Kinshasa</p>
+        </div>
+        <div class="card">
+            <h3>Conducteur de travaux</h3>
+            <p>CDI - Mbuji-Mayi</p>
+        </div>
+    </div>
+    <br>
+    <p><strong>Envoyez votre CV à : recrutement@gck.cd</strong></p>
+</section>
+
+<!-- SECTION 6 - NOUS CONTACTER -->
+<section id="contact">
+    <h2>Nous Contacter</h2>
+    <div class="contenu-form">
+        <form>
+            <label for="name">Nom Complet</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom complet" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Votre email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Votre message"></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+    <br>
+    <p style="text-align: center;">
+        📍 Kinshasa : Limete 1er rue <br>
+        📍 Kananga : Quartier Hopital<br>
+        📞 +243 823 275 056<br>
+        📧 kambalajunior4@gmail.com
+    </p>
+</section>
+
+<footer>© 2026 GCK - Génie de Construction du Kasaï | Tous droits réservés</footer>
+
 </body>
 </html>
-
